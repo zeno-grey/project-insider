@@ -1,5 +1,6 @@
 import requests
 import json
+import time
 
 def postToSlackbot(message, URL):
     totalErrors = 0
